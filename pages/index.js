@@ -95,7 +95,7 @@ export default function Home() {
   };
 
   const scrollToTop = () => {
-    topRef.current.scrollIntoView({ behavior: 'smooth' });
+    topRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
